@@ -17,15 +17,4 @@ done
 
 chmod +x "$REAL_BINARY"
 
-# If no stdin → probe mode
-if ! read -t 1 first_input; then
-    "$REAL_BINARY"
-    exit 0
-fi
-
-INPUT="$first_input"
-while read line; do
-    INPUT="$INPUT\n$line"
-done
-
-echo -e "$INPUT" | "$REAL_BINARY"
+exec "$REAL_BINARY"
