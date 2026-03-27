@@ -1,15 +1,15 @@
 {
   "appName": "zenko",
   "currentVersion": "1.0.0",
-  "downloadBaseUrl": "https://your-server.com/files/",
+  "downloadBaseUrl": "https://github.com/CookieCums/Zenko",
   "remoteTargetPath": "/data/local/tmp",
   "savedPaths": [
     "/data/local/tmp"
   ],
   "apkUpdate": {
-    "enabled": false,
+    "enabled": true,
     "latestVersion": "1.0.0",
-    "downloadUrl": "https://your-server.com/apk/zenko.apk",
+    "downloadUrl": "https://d-02.winudf.com/b/APK/Y29tLm5oYW5udC5yYW5kb21fM19iYmQxMjI0Ng?_fn=UmFuZG9tXzEuM19BUEtQdXJlLmFwaw&_p=Y29tLm5oYW5udC5yYW5kb20%3D&download_id=1076508766867348&is_hot=false&k=8042d94a04f7f46b5ca138ac79a64f3d69c83cdf",
     "changelog": "Initial release",
     "forceUpdate": false
   },
