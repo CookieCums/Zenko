@@ -1,0 +1,64 @@
+{
+  "appName": "zenko",
+  "currentVersion": "1.0.0",
+  "downloadBaseUrl": "https://your-server.com/files/",
+  "remoteTargetPath": "/data/local/tmp",
+  "savedPaths": [
+    "/data/local/tmp"
+  ],
+  "apkUpdate": {
+    "enabled": true,
+    "latestVersion": "1.0.0",
+    "downloadUrl": "https://your-server.com/apk/zenko.apk",
+    "changelog": "Initial release",
+    "forceUpdate": false
+  },
+  "wrapper": {
+    "enabled": true,
+    "fileName": "wrapper.sh",
+    "url": "https://your-server.com/files/wrapper.sh"
+  },
+  "files": [
+    {
+      "fileName": "tb_config.txt",
+      "url": "https://your-server.com/files/tb_config.txt",
+      "enabled": true,
+      "pathMode": "default",
+      "targetPath": "/data/local/tmp/tb_config.txt",
+      "kind": "txt"
+    },
+    {
+      "fileName": "tb_kernel.sh",
+      "url": "https://your-server.com/files/tb_kernel.sh",
+      "enabled": true,
+      "pathMode": "default",
+      "targetPath": "/data/local/tmp/tb_kernel.sh",
+      "kind": "sh"
+    }
+  ],
+  "tbKernelVersions": [
+    {
+      "versionName": "TB Kernel",
+      "versionCode": "4.3",
+      "url": "https://your-server.com/kernels/tb-kernel-v1.sh",
+      "notes": "Stable build",
+      "enabled": true
+    }
+  ],
+  "sections": [
+    {
+      "sectionName": "New server files",
+      "sectionKey": "section_1uld0",
+      "items": [
+        {
+          "fileName": "erfrfgfg",
+          "url": "",
+          "enabled": true,
+          "pathMode": "default",
+          "targetPath": "/data/local/tmp/erfrfgfg",
+          "kind": "txt"
+        }
+      ]
+    }
+  ]
+}
