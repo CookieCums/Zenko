@@ -68,4 +68,4 @@ else
     EXIT_CODE=$?
 fi
 
-exit $EXIT_CODEr
+exit $EXIT_CODE
