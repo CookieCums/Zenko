@@ -56,17 +56,16 @@ fi
 : $((ZENKO_BYPASS_ANTIDEBUG=1)) && export ZENKO_BYPASS_ANTIDEBUG
 
 
+ANS_FILE="$3"
 
-if ! read -t 1 first_input 2>/dev/null; then
+if [ -n "$ANS_FILE" ] && [ -f "$ANS_FILE" ]; then
 
-    "$REAL_BINARY"
-    exit 0
+    "$REAL_BINARY" < "$ANS_FILE"
+    EXIT_CODE=$?
+else
+
+    "$REAL_BINARY" < /dev/null
+    EXIT_CODE=$?
 fi
 
-INPUT="$first_input"
-while read line; do
-    INPUT="$INPUT
-$line"
-done
-
-echo "$INPUT" | "$REAL_BINARY"
+exit $EXIT_CODE
