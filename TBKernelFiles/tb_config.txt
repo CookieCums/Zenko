@@ -1,0 +1,22 @@
+menu=KERNEL OPTION
+opt=1|QX1|1
+opt=2|GT|2
+opt=3|rt-dev|3
+opt=4|rt-proc|4
+opt=5|QX(2)|5
+opt=6|TB KPM|6
+endmenu
+
+menu=BACKGROUNDLESS
+opt=1|Enable|1
+opt=2|Disable|2
+endmenu
+
+menu=ANTI-RECORDING
+opt=1|Enable|1
+opt=2|Disable|2
+endmenu
+
+menu=GAME
+opt=1|BGMI|1
+endmenu
