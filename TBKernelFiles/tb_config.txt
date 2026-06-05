@@ -5,6 +5,8 @@ opt=3|rt-dev|3
 opt=4|rt-proc|4
 opt=5|QX(2)|5
 opt=6|TB KPM|6
+opt=7|Tear Driver|7
+opt=8|Bing VIP Driver|8
 endmenu
 
 menu=BACKGROUNDLESS
