@@ -7,18 +7,10 @@ opt=5|QX(2)|5
 opt=6|TB KPM|6
 opt=7|Tear Driver|7
 opt=8|Bing VIP Driver|8
+opt=9|Paradise|9
 endmenu
 
-menu=BACKGROUNDLESS
-opt=1|Enable|1
-opt=2|Disable|2
-endmenu
-
-menu=ANTI-RECORDING
-opt=1|Enable|1
-opt=2|Disable|2
-endmenu
-
-menu=GAME
-opt=1|BGMI|1
+menu=Execution mode
+opt=1|Background Daemon (Not Recommended)|1
+opt=2|Foreground Standard (Recommended)|2
 endmenu
