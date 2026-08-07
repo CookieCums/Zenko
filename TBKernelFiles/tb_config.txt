@@ -8,6 +8,7 @@ opt=6|TB KPM|6
 opt=7|Tear Driver|7
 opt=8|Bing VIP Driver|8
 opt=9|Paradise|9
+opt=10|Ldg KPM Driver|10
 endmenu
 
 menu=Execution mode
